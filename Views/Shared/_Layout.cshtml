@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css" type="text/css" rel="stylesheet"/>
+    <link href="@Url.Content("~/assets/site.css")" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    @RenderBody()
+
+    @if (Context.IsDebuggingEnabled)
+    {
+        <script src="http://localhost:8001/vogue-client.js"></script>
+    }
+</body>
+</html>

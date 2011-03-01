@@ -1,0 +1,179 @@
+body
+{
+    font-size: 62.5%;
+    font-family: Verdana, Tahoma, Arial, "Helvetica Neue", Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+}
+
+#wrap {
+    max-width: 90em;
+    padding: 3em;
+}
+
+h1 {
+    font-family: Calibri, Arial, "Helvetica Neue", Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-size: 3em;
+    color: #55a;
+    margin-bottom: .5em;
+}
+
+h2 {
+    font-family: Calibri, Arial, "Helvetica Neue", Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: #338;
+}
+
+p {
+    font-size: 1.4em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+a {
+    color: #4273bf;
+}
+
+th {
+    text-align: left;
+    font-weight: bold;
+    color: #444;
+}
+td, th {
+    padding: 3px 3px;
+    font-size: 1.2em;
+}
+.odd td {
+    background-color: #f8f8f8;
+}
+
+.about {
+    float: right;
+    width: 34em;
+    padding: 1em 2em;
+    margin-left: 2em;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+.about iframe {
+    float: left;
+    margin-right: 10px;
+}
+
+#resources {
+    border: 1px solid #bbb;
+    width: 50em;
+}
+
+.actions {
+    width: 40px;
+}
+a.copy {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+a.name {
+    color: #222;
+    text-decoration: none;
+}
+.type, .version, .host {
+    color: #888;
+}
+.version {
+    width: 70px;
+}
+.host {
+    width: 95px;
+}
+.type {
+    font-size: .8em;
+    padding-left: .5em;
+}
+
+.toggle-icon {
+    display: block;
+    float: right;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    background-image: url(toggle.png);
+}
+.toggle {
+    text-decoration: none;
+    color: #222;
+}
+
+.children {
+    padding: 0;
+    font-size: 1em;
+}
+.children table {
+    width: 100%;
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+
+fieldset 
+{
+    border:1px solid #ddd;
+    padding:0 1.4em 1.4em 1.4em;
+    margin:0 0 1.5em 0;
+}
+
+legend 
+{
+    font-size:1.2em;
+    font-weight: bold;
+}
+
+textarea 
+{
+    min-height: 75px;
+}
+
+.editor-label 
+{
+    margin: 1em 0 0 0;
+}
+
+.editor-field 
+{
+    margin:0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}

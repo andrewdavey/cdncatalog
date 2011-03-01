@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CdnCatalog", "CdnCatalog.csproj", "{C93D7970-1AC3-4CC3-A179-55865EE5B251}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C93D7970-1AC3-4CC3-A179-55865EE5B251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C93D7970-1AC3-4CC3-A179-55865EE5B251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C93D7970-1AC3-4CC3-A179-55865EE5B251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C93D7970-1AC3-4CC3-A179-55865EE5B251}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

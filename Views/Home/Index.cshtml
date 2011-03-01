@@ -1,0 +1,71 @@
+﻿@model CdnCatalog.Models.Resource[]
+@{
+    ViewBag.Title = "CDN Catalog";
+}
+
+<div id="wrap">
+
+<div class="about">
+    <h1>CDN Catalog</h1>
+    <h2>About</h2>
+    <p>
+        If you're building a modern website then you'll be needing some javascript libraries and css.
+    </p>
+    <p>
+        Rather than hosting these common libraries on your own server, you should <a href="http://developer.yahoo.net/blog/archives/2007/04/high_performanc_1.html" target="_blank">Use a Content Delivery Network</a>.<br />
+        Lucky for you <a href="http://code.google.com/apis/ajaxlibs/documentation/index.html" target="_blank">Google</a>, <a href="http://www.asp.net/ajaxLibrary/cdn.ashx" target="_blank">Microsoft</a>, Yahoo and <a href="http://dev.aol.com/dojo" target="_blank">AOL</a> host a range of popular javascript and css which you can directly link to for free. 
+        This saves your bandwidth and speeds up your website load time.
+    </p>
+    <p>
+        CDN Catalog indexes these resources for your convenience.
+    </p>
+    <h2>Top Tip</h2>
+    <p>Some of the resources here have both https and http URLs. However, we can simply
+    omit the protocol portion of the URL and the protocol of the current page will be used.</p>
+    <p>e.g. //example.com/resource.js</p>
+    <h2>Social</h2>
+    <p>
+        <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="andrewdavey" data-url="http://cdncatalog.com/">Tweet</a>
+        <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fcdncatalog.com%2F&amp;layout=button_count&amp;show_faces=true&amp;action=like&amp;font=verdana&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="float:left; border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+        <br style="clear:left"/>
+    </p>
+    <p>CDN Catalog is maintained by Andrew Davey.</p>
+    <p>Follow <a href="http://twitter.com/andrewdavey">@@andrewdavey</a> on Twitter<br />
+    Read the blog <a href="http://aboutcode.net/">aboutcode.net</a></p>
+</div>
+
+<table cellspacing="0" id="resources">
+    <thead>
+    <tr>
+        <th>Copy</th>
+        <th>Resource <input type="text" placeholder="(Filter)" id="filter"/></th>
+        <th class="version">Version</th>
+        <th class="host">Hosted By</th>
+    </tr>
+    </thead>
+    <tbody>
+@foreach (var resource in Model) {
+    <tr class="resource">
+        <td class="actions">
+            <a href="@resource.Url" class="copy url" title="Copy URL to clipboard"><img src="/assets/link.png" /></a>
+            <a href="@resource.Url" class="copy html @resource.Type" title="Copy HTML snippet to clipboard"><img src="/assets/html.png" /></a>
+        </td>
+        <td>
+            <a href="@resource.Url" class="name">@resource.Name <span class="type">@resource.Type</span></a></td>
+        <td class="version">@resource.Version</td>
+        <td class="host">@resource.Host</td>
+    </tr>
+}
+    </tbody>
+</table>
+
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js" type="text/javascript"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.min.js" type="text/javascript"></script>
+<script src="@Url.Content("~/assets/zeroclipboard.js")" type="text/javascript"></script>
+<script type="text/javascript">
+ZeroClipboard.setMoviePath('http://' + document.location.host + '@Url.Content("~/assets/zeroclipboard10.swf")');
+</script>
+<script src="@Url.Content("~/assets/index.js")" type="text/javascript"></script>
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
