@@ -77,7 +77,12 @@
 
     $("a.toggle").click(function (e) {
         e.preventDefault();
-        $(this).closest("tr").next().toggle();
+        var row = $(this).closest("tr").next();
+        if (row.is(":visible")) {
+            row.hide();
+        } else {
+            row.css("display", "table-row");
+        }
     });
 
     var rows = $("#resources > tbody > tr.resource");
@@ -86,7 +91,7 @@
         rows.each(function () {
             var row = $(this);
             if (regex.test(row.find(".name").text())) {
-                row.show();
+                row.css("display", "table-row");
             } else {
                 row.hide();
             }
