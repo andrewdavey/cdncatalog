@@ -125,3 +125,8 @@ a.name {
 .children table {
     width: 100%;
 }
+
+.social li {
+    display: block;
+    float: left;
+}
