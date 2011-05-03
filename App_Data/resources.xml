@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <resource>
-        <url>//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js</url>
+        <url>//ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js</url>
         <name>jQuery</name>
-        <version>1.5.2</version>
+        <version>1.6</version>
     </resource>
     <resource>
-        <url>//ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js</url>
+        <url>//ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js</url>
         <name>jQuery UI</name>
-        <version>1.8.11</version>
+        <version>1.8.12</version>
     </resource>
 
     <resource>
-        <url>//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.5.2.min.js</url>
+        <url>//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.min.js</url>
         <name>jQuery</name>
-        <version>1.5.2</version>
+        <version>1.6</version>
     </resource>
     <resource>
-        <url>//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.11/jquery-ui.min.js</url>
+        <url>//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.12/jquery-ui.min.js</url>
         <name>jQuery UI</name>
-        <version>1.8.11</version>
+        <version>1.8.12</version>
     </resource>
     <resource-loop>
-        <url-pattern>//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.11/themes/{0}/jquery-ui.css</url-pattern>
+        <url-pattern>//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.12/themes/{0}/jquery-ui.css</url-pattern>
         <name-pattern>jQuery UI Theme - {0}</name-pattern>
-        <version>1.8.11</version>
+        <version>1.8.12</version>
         <name>black-tie</name>
         <name>blitzer</name>
         <name>cupertino</name>
@@ -51,9 +51,9 @@
         <name>vader</name>
     </resource-loop>
     <resource-loop>
-        <url-pattern>//ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/themes/{0}/jquery-ui.css</url-pattern>
+        <url-pattern>//ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/themes/{0}/jquery-ui.css</url-pattern>
         <name-pattern>jQuery UI Theme - {0}</name-pattern>
-        <version>1.8.11</version>
+        <version>1.8.12</version>
         <name>black-tie</name>
         <name>blitzer</name>
         <name>cupertino</name>
