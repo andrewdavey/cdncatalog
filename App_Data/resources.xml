@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <resource>
-        <url>//ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js</url>
+        <url>//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js</url>
         <name>jQuery</name>
         <version>1.6</version>
     </resource>
@@ -12,7 +12,7 @@
     </resource>
 
     <resource>
-        <url>//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.min.js</url>
+        <url>//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.1.min.js</url>
         <name>jQuery</name>
         <version>1.6</version>
     </resource>
