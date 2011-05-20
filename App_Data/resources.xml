@@ -3,7 +3,7 @@
     <resource>
         <url>//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js</url>
         <name>jQuery</name>
-        <version>1.6</version>
+        <version>1.6.1</version>
     </resource>
     <resource>
         <url>//ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js</url>
@@ -14,7 +14,7 @@
     <resource>
         <url>//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.1.min.js</url>
         <name>jQuery</name>
-        <version>1.6</version>
+        <version>1.6.1</version>
     </resource>
     <resource>
         <url>//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.12/jquery-ui.min.js</url>
