@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <resource>
-        <url>//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js</url>
+        <url>//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js</url>
         <name>jQuery</name>
-        <version>1.6.1</version>
+        <version>1.6.2</version>
     </resource>
     <resource>
-        <url>//ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js</url>
+        <url>//ajax.googleapis.com/ajax/libs/jqueryui/1.8.15/jquery-ui.min.js</url>
         <name>jQuery UI</name>
-        <version>1.8.12</version>
+        <version>1.8.15</version>
     </resource>
 
     <resource>
-        <url>//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.1.min.js</url>
+        <url>//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.2.min.js</url>
         <name>jQuery</name>
-        <version>1.6.1</version>
+        <version>1.6.2</version>
     </resource>
     <resource>
-        <url>//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.12/jquery-ui.min.js</url>
+        <url>//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.15/jquery-ui.min.js</url>
         <name>jQuery UI</name>
-        <version>1.8.12</version>
+        <version>1.8.15</version>
     </resource>
     <resource-loop>
-        <url-pattern>//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.12/themes/{0}/jquery-ui.css</url-pattern>
+        <url-pattern>//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.15/themes/{0}/jquery-ui.css</url-pattern>
         <name-pattern>jQuery UI Theme - {0}</name-pattern>
-        <version>1.8.12</version>
+        <version>1.8.15</version>
         <name>black-tie</name>
         <name>blitzer</name>
         <name>cupertino</name>
@@ -51,9 +51,9 @@
         <name>vader</name>
     </resource-loop>
     <resource-loop>
-        <url-pattern>//ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/themes/{0}/jquery-ui.css</url-pattern>
+        <url-pattern>//ajax.googleapis.com/ajax/libs/jqueryui/1.8.15/themes/{0}/jquery-ui.css</url-pattern>
         <name-pattern>jQuery UI Theme - {0}</name-pattern>
-        <version>1.8.12</version>
+        <version>1.8.15</version>
         <name>black-tie</name>
         <name>blitzer</name>
         <name>cupertino</name>
@@ -81,14 +81,14 @@
     </resource-loop>
     
     <resource>
-        <url>//ajax.aspnetcdn.com/ajax/jquery.validate/1.8/jquery.validate.min.js</url>
+        <url>//ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/jquery.validate.min.js</url>
         <name>jQuery Validate</name>
-        <version>1.8</version>
+        <version>1.8.1</version>
     </resource>
     <resource>
-        <url>//ajax.aspnetcdn.com/ajax/jquery.validate/1.8/additional-methods.js</url>
+        <url>//ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/additional-methods.js</url>
         <name>jQuery Validate Additional Methods</name>
-        <version>1.8</version>
+        <version>1.8.1</version>
     </resource>
     <resource>
         <url>//ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js</url>
@@ -101,19 +101,19 @@
         <version>beta1</version>
     </resource>
     <resource>
-        <url>//ajax.aspnetcdn.com/ajax/jquery.cycle/2.94/jquery.cycle.all.min.js</url>
+        <url>//ajax.aspnetcdn.com/ajax/jquery.cycle/2.99/jquery.cycle.all.min.js</url>
         <name>jQuery Cycle - All</name>
-        <version>2.94</version>
+        <version>2.99</version>
     </resource>
     <resource>
-        <url>//ajax.aspnetcdn.com/ajax/jquery.cycle/2.94/jquery.cycle.min.js</url>
+        <url>//ajax.aspnetcdn.com/ajax/jquery.cycle/2.99/jquery.cycle.min.js</url>
         <name>jQuery Cycle</name>
-        <version>2.94</version>
+        <version>2.99</version>
     </resource>
     <resource>
-        <url>//ajax.aspnetcdn.com/ajax/jquery.cycle/2.94/jquery.cycle.lite.min.js</url>
+        <url>//ajax.aspnetcdn.com/ajax/jquery.cycle/2.99/jquery.cycle.lite.min.js</url>
         <name>jQuery Cycle - Lite</name>
-        <version>2.94</version>
+        <version>2.99</version>
     </resource>
 
     <resource>
@@ -122,9 +122,9 @@
         <version>1.0.2</version>
     </resource>
     <resource>
-        <url>//ajax.googleapis.com/ajax/libs/dojo/1.5.0/dojo/dojo.xd.js</url>
+        <url>//ajax.googleapis.com/ajax/libs/dojo/1.6.1/dojo/dojo.xd.js</url>
         <name>Dojo</name>
-        <version>1.5.0</version>
+        <version>1.6.1</version>
     </resource>
     <resource>
         <url>//ajax.googleapis.com/ajax/libs/ext-core/3.1.0/ext-core.js</url>
@@ -132,9 +132,9 @@
         <version>3.1.0</version>
     </resource>
     <resource>
-        <url>//ajax.googleapis.com/ajax/libs/mootools/1.3.0/mootools-yui-compressed.js</url>
+        <url>//ajax.googleapis.com/ajax/libs/mootools/1.3.2/mootools-yui-compressed.js</url>
         <name>MooTools</name>
-        <version>1.3.0</version>
+        <version>1.3.2</version>
     </resource>
     <resource>
         <url>//ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js</url>
@@ -144,7 +144,7 @@
     <resource>
         <url>//ajax.googleapis.com/ajax/libs/scriptaculous/1.8.3/scriptaculous.js</url>
         <name>script.alculo.us</name>
-        <version>1.8.3</version>
+        <version>1.9.0</version>
     </resource>
     <resource>
         <url>//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js</url>
@@ -157,9 +157,9 @@
         <version>3.3.0</version>
     </resource>
     <resource>
-        <url>//ajax.googleapis.com/ajax/libs/webfont/1.0.18/webfont.js</url>
+        <url>//ajax.googleapis.com/ajax/libs/webfont/1.0.22/webfont.js</url>
         <name>WebFont Loader</name>
-        <version>1.0.18</version>
+        <version>1.0.22</version>
     </resource>
     <resource>
         <url>http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css</url>
@@ -173,8 +173,8 @@
     </resource>
 
     <resource>
-        <url>http://o.aolcdn.com/dojo/1.5/dojo/dojo.xd.js</url>
+        <url>http://o.aolcdn.com/dojo/1.6/dojo/dojo.xd.js</url>
         <name>Dojo</name>
-        <version>1.5</version>
+        <version>1.6</version>
     </resource>
 </resources>
