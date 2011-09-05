@@ -1,14 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <resource>
-        <url>//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js</url>
+        <url>//ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js</url>
         <name>jQuery</name>
-        <version>1.6.2</version>
+        <version>1.6.3</version>
     </resource>
     <resource>
-        <url>//ajax.googleapis.com/ajax/libs/jqueryui/1.8.15/jquery-ui.min.js</url>
+        <url>//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js</url>
         <name>jQuery UI</name>
-        <version>1.8.15</version>
+        <version>1.8.16</version>
+    </resource>
+    <resource>
+        <url>//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/i18n/jquery-ui-i18n.js</url>
+        <name>jQuery UI i18n</name>
+        <version>1.8.16</version>
     </resource>
 
     <resource>
@@ -17,9 +22,9 @@
         <version>1.6.2</version>
     </resource>
     <resource>
-        <url>//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.15/jquery-ui.min.js</url>
+        <url>//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.16/jquery-ui.min.js</url>
         <name>jQuery UI</name>
-        <version>1.8.15</version>
+        <version>1.8.16</version>
     </resource>
     <resource-loop>
         <url-pattern>//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.15/themes/{0}/jquery-ui.css</url-pattern>
@@ -90,6 +95,14 @@
         <name>jQuery Validate Additional Methods</name>
         <version>1.8.1</version>
     </resource>
+    <resource-loop>
+        <url-pattern>//ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/localization/messages_{0}.js</url-pattern>
+        <name-pattern>jQuery Validate Localized - {0}</name-pattern>
+        <version>1.8.1</version>
+        <name>de</name>
+        <name>fr</name>
+        <name>es</name>
+    </resource-loop>
     <resource>
         <url>//ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js</url>
         <name>jQuery Templates</name>

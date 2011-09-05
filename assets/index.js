@@ -48,14 +48,16 @@
         $("tr").each(function () {
             var name = $("a.name", this);
             var text = name.text();
-            if (text.match(/^jquery ui theme -/i)) {
-                var row = $(this);
+            if (text.match(/(^jquery ui theme -)|(^jquery validate localized -)/i)) {
                 var version = $(".version", this).text();
                 var host = $(".host", this).text();
+                var type = $(".type", this).text();
 
-                name.text(text.substring(18, text.length - 4));
+                var index = text.indexOf('-');
+                var folderName = text.substr(0, index);
+                name.text(text.substr(index + 1, text.length - index - 4));
                 if (currentHost != host) {
-                    var toggleRow = $('<tr class="resource group"><td><a class="toggle toggle-icon" href="#"></a></td><td class="name"><a class="toggle" href="#">jQuery UI Themes <span class="type">css</span></a></td><td class="version">' + version + '</td><td class="host">' + host + '</tr>');
+                    var toggleRow = $('<tr class="resource group"><td><a class="toggle toggle-icon" href="#"></a></td><td class="name"><a class="toggle" href="#">' + folderName + ' <span class="type">' + type + '</span></a></td><td class="version">' + version + '</td><td class="host">' + host + '</tr>');
                     var tableRow = $('<tr><td> </td><td colspan="3" class="children"><table><tbody></tbody></table></td></tr>');
                     tableRow.hide();
                     table = tableRow.find("tbody");
