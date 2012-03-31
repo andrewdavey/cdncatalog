@@ -1,35 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <resource>
-        <url>//ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js</url>
+        <url>//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js</url>
         <name>jQuery</name>
-        <version>1.6.3</version>
+        <version>1.7.2</version>
     </resource>
     <resource>
-        <url>//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js</url>
+        <url>//ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js</url>
         <name>jQuery UI</name>
-        <version>1.8.16</version>
+        <version>1.8.18</version>
     </resource>
     <resource>
-        <url>//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/i18n/jquery-ui-i18n.js</url>
+        <url>//ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/i18n/jquery-ui-i18n.min.js</url>
         <name>jQuery UI i18n</name>
-        <version>1.8.16</version>
+        <version>1.8.18</version>
     </resource>
 
     <resource>
-        <url>//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.2.min.js</url>
+        <url>//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js</url>
         <name>jQuery</name>
-        <version>1.6.2</version>
+        <version>1.7.1</version>
     </resource>
     <resource>
-        <url>//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.16/jquery-ui.min.js</url>
+        <url>//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.18/jquery-ui.min.js</url>
         <name>jQuery UI</name>
-        <version>1.8.16</version>
+        <version>1.8.18</version>
     </resource>
     <resource-loop>
-        <url-pattern>//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.15/themes/{0}/jquery-ui.css</url-pattern>
+        <url-pattern>//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.17/themes/{0}/jquery-ui.css</url-pattern>
         <name-pattern>jQuery UI Theme - {0}</name-pattern>
-        <version>1.8.15</version>
+        <version>1.8.17</version>
         <name>black-tie</name>
         <name>blitzer</name>
         <name>cupertino</name>
@@ -56,9 +56,9 @@
         <name>vader</name>
     </resource-loop>
     <resource-loop>
-        <url-pattern>//ajax.googleapis.com/ajax/libs/jqueryui/1.8.15/themes/{0}/jquery-ui.css</url-pattern>
+        <url-pattern>//ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/{0}/jquery-ui.css</url-pattern>
         <name-pattern>jQuery UI Theme - {0}</name-pattern>
-        <version>1.8.15</version>
+        <version>1.8.18</version>
         <name>black-tie</name>
         <name>blitzer</name>
         <name>cupertino</name>
@@ -135,9 +135,9 @@
         <version>1.0.2</version>
     </resource>
     <resource>
-        <url>//ajax.googleapis.com/ajax/libs/dojo/1.6.1/dojo/dojo.xd.js</url>
+        <url>//ajax.googleapis.com/ajax/libs/dojo/1.7.2/dojo/dojo.xd.js</url>
         <name>Dojo</name>
-        <version>1.6.1</version>
+        <version>1.7.2</version>
     </resource>
     <resource>
         <url>//ajax.googleapis.com/ajax/libs/ext-core/3.1.0/ext-core.js</url>
@@ -145,9 +145,9 @@
         <version>3.1.0</version>
     </resource>
     <resource>
-        <url>//ajax.googleapis.com/ajax/libs/mootools/1.3.2/mootools-yui-compressed.js</url>
+        <url>//ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools-yui-compressed.js</url>
         <name>MooTools</name>
-        <version>1.3.2</version>
+        <version>1.4.5</version>
     </resource>
     <resource>
         <url>//ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js</url>
@@ -170,9 +170,9 @@
         <version>3.3.0</version>
     </resource>
     <resource>
-        <url>//ajax.googleapis.com/ajax/libs/webfont/1.0.22/webfont.js</url>
+        <url>//ajax.googleapis.com/ajax/libs/webfont/1.0.26/webfont.js</url>
         <name>WebFont Loader</name>
-        <version>1.0.22</version>
+        <version>1.0.26</version>
     </resource>
     <resource>
         <url>http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css</url>
